@@ -1,0 +1,67 @@
+<!--EJERCICIO 2-->
+
+<!--2.a-->
+<!--Código controlado el día 12/8/2009-->
+<!--Esta línea es un comentario que lo único que aporta es claridad a la hora de leer el código, pero no efectúa cambios en la página-->
+
+<!--2.b-->
+<div id="bloque1">Contenido del bloque1</div>
+<!--Esta línea es un div, es decir una sentencia que divide el <body> en bloques. La etiqueta <div> se abre y cierra, y en este caso
+    tiene el atributo id con el valor bloque1, que no es obligatorio pero ayuda a identificar cada bloque ya sea para una hoja de estilos
+    o alguna función en php/javascript-->
+
+<!--2.c-->
+<img src="" alt="lugar imagen" id="im1" name="im1" width="32" height="32" longdesc="detalles.htm" />
+<!--Esta línea se utiliza para insertar una imagen en el <body> de la página. Es una etiqueta la cual no necesita apertura y clausura, 
+    sino que está vacía.
+    En este caso, tiene varios atributos, src, el cual no tiene asignado un elemento pero quiere decir source (fuente en español). Luego alt,
+    que es el atributo que hace referencia a qué contiene la imagen y es lo que leen los lectores de pantalla, o si la imagen no cargara.
+    Nuevamente id, que funciona igual que en el div. Name sirve para identificar el dato que se enviará en un formulario. Width y height
+    hacen referencia a la altura y anchura de la imagen en cuanto a pixeles de la pantalla en este caso 32. Y por último longdesc, se usa 
+    para proporcionar una descripción detallada de una imagen, especialmente para personas que utilizan lectores de pantalla-->
+
+<!--2.d-->
+<meta name="keywords" lang="es" content="casa, compra, venta, alquiler " />
+<meta http-equiv="expires" content="16-Sep-2019 7:49 PM" />
+<!--Esta etiqueta se coloca en el <head> y se utiliza para proporcionar metadatos a la página, siendo datos que no se muestran directamente
+    al usuario, sino que lo utilizan los navegadores para interpretar el documento. En la primer sentencia, hay un name, que en este caso
+    especifica que el metadato corresponde a las palabras claves de la página. Luego lang, hace referencia al idioma en el que están estas
+    palabras claves. Y por último content, incluye las palabras claves en sí mismas.
+    En la segunda sentencia, aparece http-equiv y el content, que lo que hacen es proporcionar una fecha de expiración para el documento
+    lo cual es útil para que el navegador sepa hasta cuándo considerar válida la versión almacenada en caché-->
+
+<!--2.e-->
+<a href="http://www.e-style.com.ar/resumen.html" type="text/html" hreflang="es" charset="utf-8" rel="help">Resumen HTML </a>
+<!--La etiqueta <a> se utiliza en el <body> para crear un enlace. El href, indica la URL de destino a la que se accederá al hacer clic
+    en el enlace. El type, te indica de qué tipo es el recurso enlazado, en este caso un html. hreflang se utiliza para indicar en qué
+    idioma está el documento enlazado. charset describe qué codificación de caracteres tiene el documento enlazado. Para finalizar, rel
+    describe la relación entre la página actual y la página enlazada-->
+
+<!--2.f-->
+<table width="200" summary="Datos correspondientes al ejercicio vencido">
+    <caption align="top"> Título </caption>
+    <tr>
+        <th scope="col">&nbsp;</th>
+        <th scope="col">A</th>
+        <th scope="col">B</th>
+        <th scope="col">C</th>
+    </tr>
+    <tr>
+        <th scope="row">1º</th>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <th scope="row">2º</th>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+</table>
+<!--Este fragmento representa una tabla, que va en el <body>. Esta tabla tiene una anchura de 200 pixeles, y el summary, que lo que hace es 
+    dar una descripcion de la página principalmente para lectores de pantalla. En este caso tiene un caption, que se podría interpretar como 
+    un título de la tabla, alineado por sobre la tabla. Luego vemos los table rows, que indican una fila de elementos; siendo la primera
+    en su totalidad conformada por table headers que se marcan como títulos de la columna, con scope como atributo que semanticamente indica
+    qué representa en la página esa celda, ya sea row o col. Cabe destacar que &nbsp; es lo que se conoce como non-breaking-space, que se usa
+    para dejar esa celda en blanco. Por último td crea una celda de datos--> 
