@@ -1,0 +1,14 @@
+/*En este bloque le añade un diseño a los párrafos de class="quitar"*/
+p.quitar {
+color: red;
+}
+
+/*En este bloque le añade un diseño a todos los elementos de class="desarrollo"*/
+*.desarrollo {
+font-size: 8px;
+}
+
+/*En este bloque, al igual que el anterior, le añade un diseño a todos los elementos de class="importante"*/
+.importante {
+font-size: 20px;
+}

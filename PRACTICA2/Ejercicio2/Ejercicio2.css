@@ -1,0 +1,19 @@
+/*En este bloque le da un diseño al párrafo con id="normal"*/
+p#normal { 
+    font-family: arial,helvetica;
+    font-size: 110px;
+    font-weight: bold;
+}
+
+/*En este bloque le da un diseño a cualquier elemento de id="destacado"*/
+*#destacado {
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+}
+
+/*En este bloque le da un diseño a cualquier elemento de id="distinto" al igual que el bloque anterior*/
+#distinto {
+    background-color: #9EC7EB;
+    color: red;
+}

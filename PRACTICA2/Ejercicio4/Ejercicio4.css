@@ -1,0 +1,16 @@
+/*En esta línea está declarando que todos los elementos sean color verde, sin embargo, predomina el modificador directo a cada etiqueta
+  como el de p que indica que sea color negro*/
+* {color:green; }
+
+/*En estas 4 líneas se le da formato a la etiqueta a, puntualmente al link, que lo hace de color gris, al link una vez que es visitado,
+  al link cuando se le pasa el clic por encima, y al link mientras tiene el clic presionado*/
+a:link {color:gray }
+a:visited{color:blue }
+a:hover {color:fuchsia }
+a:active {color:red }
+
+/*En esta línea se le da formato a todos los párrafos del html*/
+p {font-family: arial,helvetica;font-size: 10px;color:black; }
+
+/*En esta línea se le da formato a todos los elementos de class="contenido"*/
+.contenido{font-size: 14px;font-weight: bold; }
