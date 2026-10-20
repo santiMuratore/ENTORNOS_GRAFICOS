@@ -1,0 +1,9 @@
+CREATE DATABASE base2;
+USE base2;
+
+CREATE TABLE alumnos (
+    codigo INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    codigocurso INT NOT NULL,
+    mail VARCHAR(100) NOT NULL UNIQUE
+);
