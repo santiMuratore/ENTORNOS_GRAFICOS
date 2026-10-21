@@ -1,0 +1,23 @@
+/*
+ * PRÁCTICA 1 - Ejercicio 3
+ * Archivo estilo.css, se llama desde el HTML con <link rel="stylesheet" href="estilo.css">
+ * (se enlaza DESPUÉS de Bootstrap para poder pisar sus estilos si hace falta).
+ */
+
+/* Clase "contenedor" con un color de fondo cualquiera */
+.contenedor {
+    background-color: #cfe2ff;
+}
+
+/* ---- Estilos extra para los ejercicios de las prácticas 2 y 3 ---- */
+.caja {
+    min-height: 80px;
+    margin-bottom: 1rem;
+}
+.violeta  { background-color: #a67ea8; min-height: 100px; }
+.durazno  { background-color: #f4d9cf; }
+.verde    { background-color: #66cc83; }
+.gris     { background-color: #9e8d96; }
+.celeste  { background-color: #7b9ecb; }
+.rosa     { background-color: #e0b0b0; }
+.crema    { background-color: #fae6d8; }
